@@ -1,0 +1,77 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f8;
+  color: #333;
+  margin: 20px;
+}
+
+/* Header styles */
+.site-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;              /* Padding inside header box */
+  border: 3px solid #34495e;  /* Border around header */
+  margin-bottom: 30px;        /* Margin below header */
+  text-align: center;
+}
+
+/* Navigation buttons styled as boxes */
+.main-nav button {
+  background-color: #2980b9;
+  border: 2px solid #1c5980;
+  color: white;
+  padding: 10px 20px;         /* Padding inside button */
+  margin: 0 10px;             /* Margin left and right */
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;     /* Include border/padding in size */
+  transition: background-color 0.3s ease;
+}
+
+.main-nav button:hover {
+  background-color: #1c5980;
+}
+
+/* Content section */
+.content {
+  display: flex;
+  gap: 20px;                  /* Space between cards */
+  justify-content: center;
+  margin-bottom: 40px;        /* Space below content */
+}
+
+/* Card style demonstrating Box Model */
+.card {
+  background-color: #ecf0f1;
+  border: 2px solid #bdc3c7;
+  padding: 20px;              /* Padding inside card */
+  margin: 0 10px;             /* Margin left and right */
+  width: 300px;
+  box-sizing: border-box;     /* Ensure padding and border included in width */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Headings inside cards */
+.card h2 {
+  margin-top: 0;              /* Remove default top margin */
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+/* Paragraphs inside cards */
+.card p {
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Footer styles */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #bdc3c7;
+  color: #777;
+  font-size: 14px;
+}
